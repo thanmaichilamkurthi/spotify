@@ -1,19 +1,50 @@
-h2{
+.container{
+    background-image: url(https://cdn.homecrux.com/wp-content/uploads/2022/07/Modern-Interior-Design.jpg);background-repeat: no-repeat;background-size: cover;
+}
+.div1{
+    height: 1040px;
+    width: 1500px;
+    background-color: rgba(0,0,0, 0.5);
 
-    color:blue
 }
-span{
-    color:rgb(8, 8, 168)
+.div2{
+    display:inline;
+    color: white;
+    font-size: x-large;
 }
-.a{
-    
-    color: transparent;
-    text-shadow:0 0 0 blue;
-  }
-  u{
-        color: orange;
+.div3{
+    align-items: right;
 }
-div{
-    color:blue
+li{
+    display: inline;
+    color: white;
 }
-  
+.div2{
+    float: left;
+}
+.div3{
+    float: right;
+}
+.div3 li a{
+    text-decoration: none;
+}
+.div3 li a:hover{
+ text-decoration: underline;
+ font-size: larger;
+ color: white;
+}
+.roundbut{
+    background-color:white;
+  width: 120px;
+  height: 25px;
+  border-radius: 20px;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+}
+.top div:hover{
+  background-color: aquamarine;
+}
+a{
+    color: white;
+}
